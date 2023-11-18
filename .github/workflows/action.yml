@@ -4,8 +4,7 @@ on:
   push:
     branches: 
       - master
-  schedule:
-    - cron: '*/5 * * * *'
+  workflow_dispatch:  # 添加这一行来启用手动触发
 
 jobs:
   get_points:

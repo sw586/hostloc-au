@@ -86,7 +86,7 @@ def reply_to_thread(s: req_Session):
     if formhash:
         reply_url = "https://hostloc.com/forum.php?mod=post&action=reply&fid=XX&tid=1234299&extra=page%3D1&replysubmit=yes&infloat=yes&handlekey=fastpost&inajax=1"
         reply_data = {
-            "message": "谨慎购买甲骨文！黄牛号包封！",
+            "message": "要小心",
             "formhash": formhash,
             "usesig": "1",
             "subject": "",

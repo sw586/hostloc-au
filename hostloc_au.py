@@ -94,7 +94,7 @@ def reply_to_thread(s: req_Session):
         headers = {
             "user-agent": "Mozilla/5.0",
             "origin": "https://hostloc.com",
-            "referer": "https://hostloc.com/forum.php?mod=viewthread&tid=1218747&page=1#pid14626992",
+            "referer": "https://hostloc.com/forum.php?mod=viewthread&tid=1234299&page=1#pid14818742",
         }
         res = s.post(url=reply_url, data=reply_data, headers=headers)
         res.raise_for_status()

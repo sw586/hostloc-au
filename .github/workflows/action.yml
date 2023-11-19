@@ -5,7 +5,7 @@ on:
     branches: 
       - master
   schedule:
-    - cron: '0 */4 * * *'  # 每4小时自动执行一次
+    - cron: '0 */1 * * *'  # 每4小时自动执行一次
   workflow_dispatch:  # 允许手动触发
 jobs:
   get_points:
